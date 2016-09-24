@@ -1,0 +1,19 @@
+{
+	"data": [
+		{
+			"id": "10",
+			"first-name": "Perra112",
+			"last-name": "Alderson45",
+			"email": "darlene@fscociety.com",
+			"twitter": "@perrota",
+			"created-at": "2016-05-24T14:57:27.055Z"
+		},{
+			"id": "57",
+			"first-name": "NoWaytogo",
+			"last-name": "Kwasu1234",
+			"email": "maria@example.com",
+			"twitter": "@marialemon",
+			"created-at": "2016-06-10T21:14:24.168Z"
+		}
+	]
+}

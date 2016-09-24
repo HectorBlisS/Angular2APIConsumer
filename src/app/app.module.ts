@@ -6,19 +6,21 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 
-import { AlumnosDataService } from './login/store-data.service';
+import { ApiDataService } from './the.service';
+import { ApiExternaComponent } from './api-externa/api-externa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    ApiExternaComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [AlumnosDataService],
+  providers: [ApiDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
